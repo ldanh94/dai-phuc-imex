@@ -3,7 +3,7 @@ import { Link } from "@/i18n/routing";
 import { Card, CardContent } from "@/components/ui/card";
 import { buttonVariants } from "@/components/ui/button";
 import { prisma } from "@/lib/prisma";
-import { CategoryType } from "@prisma/client";
+import { CategoryType } from "@/lib/generated/prisma/enums";
 import { Image } from "@imagekit/next";
 
 export default async function ProductsPage({
