@@ -1,0 +1,45 @@
+datasource db {
+  provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/lib/generated/prisma"
+}
+
+enum CategoryType {
+  AGRICULTURE
+  FORESTRY
+  SEAFOOD
+}
+
+model Product {
+  id          String       @id @default(uuid())
+  type        CategoryType
+  nameVi      String
+  nameEn      String
+  descVi      String?      @db.Text
+  descEn      String?      @db.Text
+  imageUrls   String[]
+  createdAt   DateTime     @default(now())
+}
+
+model News {
+  id          String       @id @default(uuid())
+  titleVi     String
+  titleEn     String
+  contentVi   String       @db.Text
+  contentEn   String       @db.Text
+  thumbnail   String
+  publishedAt DateTime     @default(now())
+}
+
+model ContactSubmission {
+  id        String   @id @default(uuid())
+  fullName  String
+  email     String
+  phone     String
+  title     String
+  message   String   @db.Text
+  createdAt DateTime @default(now())
+}

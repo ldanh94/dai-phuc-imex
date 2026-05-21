@@ -1,0 +1,23 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "title": "Welcome to Dai Phuc Global",
+    "description": "Your trusted partner in agricultural import-export",
+    "heroTitle": "Premium Agriculture Products",
+    "heroSubtitle": "Connecting Vietnam's finest agriculture, forestry, and seafood with the world.",
+    "categories": "Our Categories",
+    "latestNews": "Latest Market News",
+    "factoryTour": "Factory Tours"
+  },
+  "Common": {
+    "search": "Search products...",
+    "readMore": "Read More",
+    "viewAll": "View All"
+  }
+}

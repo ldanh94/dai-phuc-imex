@@ -1,0 +1,23 @@
+{
+  "Navigation": {
+    "home": "Trang Chủ",
+    "products": "Sản Phẩm",
+    "about": "Về Chúng Tôi",
+    "news": "Tin Tức",
+    "contact": "Liên Hệ"
+  },
+  "HomePage": {
+    "title": "Chào mừng đến với Đại Phúc Global",
+    "description": "Đối tác đáng tin cậy của bạn trong xuất nhập khẩu nông sản",
+    "heroTitle": "Nông Sản Cao Cấp",
+    "heroSubtitle": "Kết nối nông, lâm, thủy sản chất lượng nhất của Việt Nam với thế giới.",
+    "categories": "Danh Mục",
+    "latestNews": "Tin Tức Thị Trường Mới Nhất",
+    "factoryTour": "Tham Quan Nhà Máy"
+  },
+  "Common": {
+    "search": "Tìm kiếm sản phẩm...",
+    "readMore": "Đọc Thêm",
+    "viewAll": "Xem Tất Cả"
+  }
+}
