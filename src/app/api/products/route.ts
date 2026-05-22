@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
-import { CategoryType } from '@prisma/client';
+import { CategoryType } from '@/lib/generated/prisma/enums';
 
 export async function GET(request: Request) {
   try {

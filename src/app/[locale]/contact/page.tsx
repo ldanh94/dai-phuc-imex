@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { ContactForm } from "@/components/ContactForm";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function ContactPage() {
   const t = useTranslations("Navigation");

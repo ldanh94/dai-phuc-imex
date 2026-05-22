@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/routing";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardTitle } from "@/components/ui/card";
 
 export default function NewsPage() {
   const news = [
