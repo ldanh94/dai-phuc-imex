@@ -48,13 +48,13 @@ const productData: Prisma.ProductCreateInput[] = [
   },
   {
     type: "AGRICULTURE",
-    nameEn: "Sugarcane",
-    nameVi: "Mía",
-    descEn: "Fresh and sweet sugarcane, harvested at peak maturity. Ideal for juice extraction and sugar production.",
-    descVi: "Mía tươi ngọt, được thu hoạch ở độ chín cao nhất. Lý tưởng để ép nước và sản xuất đường.",
+    nameEn: "Bamboo",
+    nameVi: "Tre",
+    descEn: "Fresh and strong bamboo, harvested at peak maturity. Ideal for construction and manufacturing.",
+    descVi: "Tre tươi và chắc khỏe, được thu hoạch ở độ chín cao nhất. Lý tưởng cho xây dựng và sản xuất.",
     imageUrls: [
-      "https://ik.imagekit.io/daiphucimex/products/agriculture/sugarcane/sugarcane-1.jpg",
-      "https://ik.imagekit.io/daiphucimex/products/agriculture/sugarcane/sugarcane-2.jpg",
+      "https://ik.imagekit.io/daiphucimex/products/agriculture/bamboo/bamboo-1.jpg",
+      "https://ik.imagekit.io/daiphucimex/products/agriculture/bamboo/bamboo-2.jpg",
     ]
   }
 ];

@@ -12,6 +12,8 @@ export default async function ProductsPage({
   searchParams: Promise<{ category?: string }>;
 }) {
   const t = await getTranslations("Navigation");
+  const p = await getTranslations("ProductsPage");
+  const c = await getTranslations("Categories");
   const locale = await getLocale();
   const params = await searchParams;
   const category = params.category || "all";
@@ -37,20 +39,20 @@ export default async function ProductsPage({
     <div className="container mx-auto px-6 md:px-12 lg:px-20 py-12">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
         <div>
-          <h1 className="text-4xl font-bold mb-2">Our Products</h1>
-          <p className="text-muted-foreground">Discover our high-quality export products.</p>
+          <h1 className="text-4xl font-bold mb-2">{p("title")}</h1>
+          <p className="text-muted-foreground">{p("description")}</p>
         </div>
         
         <div className="flex flex-wrap gap-2">
-          <Link href="/products" className={buttonVariants({ variant: category === "all" ? "default" : "outline" })}>All</Link>
-          <Link href={{ pathname: '/products', query: { category: 'agriculture' } }} className={buttonVariants({ variant: category === "agriculture" ? "default" : "outline" })}>Agriculture</Link>
-          <Link href={{ pathname: '/products', query: { category: 'forestry' } }} className={buttonVariants({ variant: category === "forestry" ? "default" : "outline" })}>Forestry</Link>
-          <Link href={{ pathname: '/products', query: { category: 'seafood' } }} className={buttonVariants({ variant: category === "seafood" ? "default" : "outline" })}>Seafood</Link>
+          <Link href="/products" className={buttonVariants({ variant: category === "all" ? "default" : "outline" })}>{p("all")}</Link>
+          <Link href={{ pathname: '/products', query: { category: 'agriculture' } }} className={buttonVariants({ variant: category === "agriculture" ? "default" : "outline" })}>{c("agriculture")}</Link>
+          <Link href={{ pathname: '/products', query: { category: 'forestry' } }} className={buttonVariants({ variant: category === "forestry" ? "default" : "outline" })}>{c("forestry")}</Link>
+          <Link href={{ pathname: '/products', query: { category: 'seafood' } }} className={buttonVariants({ variant: category === "seafood" ? "default" : "outline" })}>{c("seafood")}</Link>
         </div>
       </div>
 
       {products.length === 0 ? (
-        <div className="text-center py-20 text-muted-foreground">No products found.</div>
+        <div className="text-center py-20 text-muted-foreground">{p("noProducts")}</div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product) => (
@@ -68,7 +70,7 @@ export default async function ProductsPage({
                 </div>
                 <CardContent className="p-4">
                   <div className="text-xs text-primary mb-1 uppercase tracking-wider font-semibold">
-                    {product.type.toLowerCase()}
+                    {c(product.type.toLowerCase() as any)}
                   </div>
                   <h3 className="font-bold text-lg group-hover:text-primary transition-colors line-clamp-1">
                     {locale === 'vi' ? product.nameVi : product.nameEn}

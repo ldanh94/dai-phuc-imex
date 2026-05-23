@@ -19,5 +19,42 @@
     "search": "Tìm kiếm sản phẩm...",
     "readMore": "Đọc Thêm",
     "viewAll": "Xem Tất Cả"
+  },
+  "Categories": {
+    "agriculture": "Nông Sản",
+    "forestry": "Lâm Sản",
+    "seafood": "Thủy Sản",
+    "agricultureDesc": "Sản phẩm nông nghiệp chất lượng cao được thu mua trực tiếp từ các nông trại uy tín.",
+    "forestryDesc": "Sản phẩm lâm nghiệp chất lượng cao được khai thác và sản xuất bền vững.",
+    "seafoodDesc": "Sản phẩm thủy sản chất lượng cao được đánh bắt và chế biến đạt tiêu chuẩn xuất khẩu."
+  },
+  "Footer": {
+    "description": "Đối tác đáng tin cậy của bạn trong lĩnh vực xuất nhập khẩu nông sản, kết nối nông, lâm, thủy sản tốt nhất của Việt Nam với thế giới.",
+    "quickLinks": "Liên Kết Nhanh",
+    "products": "Sản Phẩm",
+    "contactUs": "Liên Hệ",
+    "addressLabel": "Địa chỉ: ",
+    "address": "Thửa đất số 3467, tờ bản đồ số 23, đường N2B, khu phố 4, phường Thới Hòa, Thành phố Hồ Chí Minh, Việt Nam",
+    "phoneLabel": "Điện thoại: ",
+    "phone": "+84 971 006 678",
+    "emailLabel": "Email: ",
+    "email": "lda.daiphuc@gmail.com",
+    "rights": "Đại Phúc Global. Đã đăng ký bản quyền."
+  },
+  "ProductsPage": {
+    "title": "Sản Phẩm",
+    "description": "Khám phá các sản phẩm xuất khẩu chất lượng cao của chúng tôi.",
+    "all": "Tất Cả",
+    "noProducts": "Không tìm thấy sản phẩm nào."
+  },
+  "ProductDetail": {
+    "backToProducts": "Quay Lại Sản Phẩm",
+    "specifications": "Thông Số Kỹ Thuật",
+    "origin": "Xuất xứ: Việt Nam",
+    "highQuality": "Đạt Tiêu Chuẩn Xuất Khẩu Chất Lượng Cao",
+    "productionProcess": "Quy Trình Sản Xuất",
+    "processSteps": "Thu Hoạch -> Làm Sạch -> Phân Loại -> Đóng Gói",
+    "inquire": "Hỏi Thông Tin Về Sản Phẩm Này",
+    "inquiryPrefix": "Yêu cầu: "
   }
 }

@@ -37,20 +37,20 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning className="h-full antialiased">
       <body className={`${inter.className} min-h-full flex flex-col`}>
-        <NextIntlClientProvider messages={messages}>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NextIntlClientProvider messages={messages}>
             <Header />
             <main className="flex-1">
               {children}
             </main>
             <Footer />
-          </ThemeProvider>
-        </NextIntlClientProvider>
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -19,5 +19,42 @@
     "search": "Search products...",
     "readMore": "Read More",
     "viewAll": "View All"
+  },
+  "Categories": {
+    "agriculture": "Agriculture",
+    "forestry": "Forestry",
+    "seafood": "Seafood",
+    "agricultureDesc": "Premium quality agriculture products sourced directly from trusted local farmers.",
+    "forestryDesc": "Premium quality forestry products sourced directly from trusted local farmers.",
+    "seafoodDesc": "Premium quality seafood products sourced directly from trusted local farmers."
+  },
+  "Footer": {
+    "description": "Your trusted partner in agricultural import-export, connecting Vietnam's finest agriculture, forestry, and seafood with the world.",
+    "quickLinks": "Quick Links",
+    "products": "Products",
+    "contactUs": "Contact Us",
+    "addressLabel": "Address: ",
+    "address": "Thửa đất số 3467, tờ bản đồ số 23, đường N2B, khu phố 4, phường Thới Hòa, Thành phố Hồ Chí Minh, Việt Nam",
+    "phoneLabel": "Phone: ",
+    "phone": "+84 971 006 678",
+    "emailLabel": "Email: ",
+    "email": "lda.daiphuc@gmail.com",
+    "rights": "Dai Phuc Global. All rights reserved."
+  },
+  "ProductsPage": {
+    "title": "Our Products",
+    "description": "Discover our high-quality export products.",
+    "all": "All",
+    "noProducts": "No products found."
+  },
+  "ProductDetail": {
+    "backToProducts": "Back to Products",
+    "specifications": "Specifications",
+    "origin": "Origin: Vietnam",
+    "highQuality": "High Quality Export Standard",
+    "productionProcess": "Production Process",
+    "processSteps": "Harvested -> Cleaned -> Sorted -> Packaged",
+    "inquire": "Inquire About This Product",
+    "inquiryPrefix": "Inquiry: "
   }
 }
